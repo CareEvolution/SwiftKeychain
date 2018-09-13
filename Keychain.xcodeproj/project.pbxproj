@@ -228,6 +228,7 @@
 				C96BE51B1C661147005EABC7 /* Sources */,
 				C96BE51C1C661147005EABC7 /* Frameworks */,
 				C96BE51D1C661147005EABC7 /* Resources */,
+				B8D2B95C214ABD8F00878C96 /* Code Sign so Keychain Works */,
 			);
 			buildRules = (
 			);
@@ -327,6 +328,7 @@
 					};
 					C96BE51E1C661147005EABC7 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E6DZ2MSZ48;
 						LastSwiftMigration = 0800;
 					};
 					C96BE5491C664025005EABC7 = {
@@ -409,6 +411,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8D2B95C214ABD8F00878C96 /* Code Sign so Keychain Works */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Code Sign so Keychain Works";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"codesign --verify --force --sign \\\"$CODE_SIGN_IDENTITY\\\" \\\"$CODESIGNING_FOLDER_PATH\\\"\"\nIDENTITIES=`security find-identity -v -s \"Code Signing\" | grep \"iPhone Developer\" | awk '{ print $2 }'`\n\nfor SHA in $IDENTITIES; do\ncodesign --verify --force --sign $SHA \"$CODESIGNING_FOLDER_PATH\"\nif [ $? -eq 0 ]; then\necho \"Matching identity found: $SHA\"\nexit 0\nfi\ndone;\n\nexit 1      \n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C96BE5101C661147005EABC7 /* Sources */ = {
@@ -615,6 +638,7 @@
 		C96BE52D1C661147005EABC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = E6DZ2MSZ48;
 				INFOPLIST_FILE = KeychainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yankodimitrov.KeychainTests;
@@ -626,6 +650,7 @@
 		C96BE52E1C661147005EABC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = E6DZ2MSZ48;
 				INFOPLIST_FILE = KeychainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yankodimitrov.KeychainTests;
