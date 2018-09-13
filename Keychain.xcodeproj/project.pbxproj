@@ -8,54 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C96BE5191C661147005EABC7 /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = C96BE5181C661147005EABC7 /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C96BE5201C661147005EABC7 /* Keychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96BE5151C661147005EABC7 /* Keychain.framework */; };
-		C96BE5251C661147005EABC7 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5241C661147005EABC7 /* KeychainTests.swift */; };
 		C96BE5321C661201005EABC7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5311C661201005EABC7 /* Keychain.swift */; };
-		C96BE5341C661478005EABC7 /* KeychainItemTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5331C661478005EABC7 /* KeychainItemTypeExtensionsTests.swift */; };
-		C96BE5361C661D18005EABC7 /* GenericPasswordTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5351C661D18005EABC7 /* GenericPasswordTypeExtensionsTests.swift */; };
-		C96BE5521C66405C005EABC7 /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = C96BE5181C661147005EABC7 /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C96BE5601C6640C4005EABC7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5311C661201005EABC7 /* Keychain.swift */; };
-		C96BE5611C6640C6005EABC7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5311C661201005EABC7 /* Keychain.swift */; };
-		C96BE5621C6640CA005EABC7 /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = C96BE5181C661147005EABC7 /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C96BE5721C66410F005EABC7 /* Keychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96BE5681C66410E005EABC7 /* Keychain.framework */; };
-		C96BE57F1C664134005EABC7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5311C661201005EABC7 /* Keychain.swift */; };
-		C96BE5801C664138005EABC7 /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = C96BE5181C661147005EABC7 /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C96BE5811C66413E005EABC7 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5241C661147005EABC7 /* KeychainTests.swift */; };
-		C96BE5821C664141005EABC7 /* KeychainItemTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5331C661478005EABC7 /* KeychainItemTypeExtensionsTests.swift */; };
-		C96BE5831C664144005EABC7 /* GenericPasswordTypeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BE5351C661D18005EABC7 /* GenericPasswordTypeExtensionsTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C96BE5211C661147005EABC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C96BE50C1C661147005EABC7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C96BE5141C661147005EABC7;
-			remoteInfo = Keychain;
-		};
-		C96BE5731C66410F005EABC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C96BE50C1C661147005EABC7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C96BE5671C66410E005EABC7;
-			remoteInfo = "Keychain OSX";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C96BE5151C661147005EABC7 /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96BE5181C661147005EABC7 /* Keychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
 		C96BE51A1C661147005EABC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C96BE51F1C661147005EABC7 /* KeychainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeychainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C96BE5241C661147005EABC7 /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
-		C96BE5261C661147005EABC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96BE5311C661201005EABC7 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		C96BE5331C661478005EABC7 /* KeychainItemTypeExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemTypeExtensionsTests.swift; sourceTree = "<group>"; };
-		C96BE5351C661D18005EABC7 /* GenericPasswordTypeExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPasswordTypeExtensionsTests.swift; sourceTree = "<group>"; };
-		C96BE54A1C664025005EABC7 /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C96BE5581C66409D005EABC7 /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C96BE5681C66410E005EABC7 /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C96BE5711C66410E005EABC7 /* Keychain OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keychain OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,43 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C96BE51C1C661147005EABC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5201C661147005EABC7 /* Keychain.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5461C664025005EABC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5541C66409D005EABC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5641C66410E005EABC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE56E1C66410E005EABC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5721C66410F005EABC7 /* Keychain.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				C96BE5171C661147005EABC7 /* Keychain */,
-				C96BE5231C661147005EABC7 /* KeychainTests */,
 				C96BE5161C661147005EABC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,11 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				C96BE5151C661147005EABC7 /* Keychain.framework */,
-				C96BE51F1C661147005EABC7 /* KeychainTests.xctest */,
-				C96BE54A1C664025005EABC7 /* Keychain.framework */,
-				C96BE5581C66409D005EABC7 /* Keychain.framework */,
-				C96BE5681C66410E005EABC7 /* Keychain.framework */,
-				C96BE5711C66410E005EABC7 /* Keychain OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,30 +54,11 @@
 			path = Keychain;
 			sourceTree = "<group>";
 		};
-		C96BE5231C661147005EABC7 /* KeychainTests */ = {
-			isa = PBXGroup;
-			children = (
-				C96BE5241C661147005EABC7 /* KeychainTests.swift */,
-				C96BE5331C661478005EABC7 /* KeychainItemTypeExtensionsTests.swift */,
-				C96BE5351C661D18005EABC7 /* GenericPasswordTypeExtensionsTests.swift */,
-				C96BE5301C661189005EABC7 /* Supporting Files */,
-			);
-			path = KeychainTests;
-			sourceTree = "<group>";
-		};
 		C96BE52F1C66117C005EABC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				C96BE5181C661147005EABC7 /* Keychain.h */,
 				C96BE51A1C661147005EABC7 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C96BE5301C661189005EABC7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C96BE5261C661147005EABC7 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,30 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96BE5191C661147005EABC7 /* Keychain.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5471C664025005EABC7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5521C66405C005EABC7 /* Keychain.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5551C66409D005EABC7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5621C6640CA005EABC7 /* Keychain.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5651C66410E005EABC7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5801C664138005EABC7 /* Keychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,97 +95,6 @@
 			productReference = C96BE5151C661147005EABC7 /* Keychain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C96BE51E1C661147005EABC7 /* KeychainTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C96BE52C1C661147005EABC7 /* Build configuration list for PBXNativeTarget "KeychainTests" */;
-			buildPhases = (
-				C96BE51B1C661147005EABC7 /* Sources */,
-				C96BE51C1C661147005EABC7 /* Frameworks */,
-				C96BE51D1C661147005EABC7 /* Resources */,
-				B8D2B95C214ABD8F00878C96 /* Code Sign so Keychain Works */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C96BE5221C661147005EABC7 /* PBXTargetDependency */,
-			);
-			name = KeychainTests;
-			productName = KeychainTests;
-			productReference = C96BE51F1C661147005EABC7 /* KeychainTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C96BE5491C664025005EABC7 /* Keychain watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C96BE54F1C664026005EABC7 /* Build configuration list for PBXNativeTarget "Keychain watchOS" */;
-			buildPhases = (
-				C96BE5451C664025005EABC7 /* Sources */,
-				C96BE5461C664025005EABC7 /* Frameworks */,
-				C96BE5471C664025005EABC7 /* Headers */,
-				C96BE5481C664025005EABC7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Keychain watchOS";
-			productName = "Keychain watchOS";
-			productReference = C96BE54A1C664025005EABC7 /* Keychain.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C96BE5571C66409D005EABC7 /* Keychain tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C96BE55D1C66409D005EABC7 /* Build configuration list for PBXNativeTarget "Keychain tvOS" */;
-			buildPhases = (
-				C96BE5531C66409D005EABC7 /* Sources */,
-				C96BE5541C66409D005EABC7 /* Frameworks */,
-				C96BE5551C66409D005EABC7 /* Headers */,
-				C96BE5561C66409D005EABC7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Keychain tvOS";
-			productName = "Keychain tvOS";
-			productReference = C96BE5581C66409D005EABC7 /* Keychain.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C96BE5671C66410E005EABC7 /* Keychain OSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C96BE5791C66410F005EABC7 /* Build configuration list for PBXNativeTarget "Keychain OSX" */;
-			buildPhases = (
-				C96BE5631C66410E005EABC7 /* Sources */,
-				C96BE5641C66410E005EABC7 /* Frameworks */,
-				C96BE5651C66410E005EABC7 /* Headers */,
-				C96BE5661C66410E005EABC7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Keychain OSX";
-			productName = "Keychain OSX";
-			productReference = C96BE5681C66410E005EABC7 /* Keychain.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C96BE5701C66410E005EABC7 /* Keychain OSXTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C96BE57C1C66410F005EABC7 /* Build configuration list for PBXNativeTarget "Keychain OSXTests" */;
-			buildPhases = (
-				C96BE56D1C66410E005EABC7 /* Sources */,
-				C96BE56E1C66410E005EABC7 /* Frameworks */,
-				C96BE56F1C66410E005EABC7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C96BE5741C66410F005EABC7 /* PBXTargetDependency */,
-			);
-			name = "Keychain OSXTests";
-			productName = "Keychain OSXTests";
-			productReference = C96BE5711C66410E005EABC7 /* Keychain OSXTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -325,23 +108,6 @@
 					C96BE5141C661147005EABC7 = {
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0800;
-					};
-					C96BE51E1C661147005EABC7 = {
-						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = E6DZ2MSZ48;
-						LastSwiftMigration = 0800;
-					};
-					C96BE5491C664025005EABC7 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					C96BE5571C66409D005EABC7 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					C96BE5671C66410E005EABC7 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					C96BE5701C66410E005EABC7 = {
-						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -358,11 +124,6 @@
 			projectRoot = "";
 			targets = (
 				C96BE5141C661147005EABC7 /* Keychain */,
-				C96BE51E1C661147005EABC7 /* KeychainTests */,
-				C96BE5491C664025005EABC7 /* Keychain watchOS */,
-				C96BE5571C66409D005EABC7 /* Keychain tvOS */,
-				C96BE5671C66410E005EABC7 /* Keychain OSX */,
-				C96BE5701C66410E005EABC7 /* Keychain OSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -375,63 +136,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C96BE51D1C661147005EABC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5481C664025005EABC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5561C66409D005EABC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5661C66410E005EABC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE56F1C66410E005EABC7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B8D2B95C214ABD8F00878C96 /* Code Sign so Keychain Works */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Code Sign so Keychain Works";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"codesign --verify --force --sign \\\"$CODE_SIGN_IDENTITY\\\" \\\"$CODESIGNING_FOLDER_PATH\\\"\"\nIDENTITIES=`security find-identity -v -s \"Code Signing\" | grep \"iPhone Developer\" | awk '{ print $2 }'`\n\nfor SHA in $IDENTITIES; do\ncodesign --verify --force --sign $SHA \"$CODESIGNING_FOLDER_PATH\"\nif [ $? -eq 0 ]; then\necho \"Matching identity found: $SHA\"\nexit 0\nfi\ndone;\n\nexit 1      \n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C96BE5101C661147005EABC7 /* Sources */ = {
@@ -442,64 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C96BE51B1C661147005EABC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5341C661478005EABC7 /* KeychainItemTypeExtensionsTests.swift in Sources */,
-				C96BE5361C661D18005EABC7 /* GenericPasswordTypeExtensionsTests.swift in Sources */,
-				C96BE5251C661147005EABC7 /* KeychainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5451C664025005EABC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5601C6640C4005EABC7 /* Keychain.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5531C66409D005EABC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5611C6640C6005EABC7 /* Keychain.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE5631C66410E005EABC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE57F1C664134005EABC7 /* Keychain.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C96BE56D1C66410E005EABC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96BE5831C664144005EABC7 /* GenericPasswordTypeExtensionsTests.swift in Sources */,
-				C96BE5821C664141005EABC7 /* KeychainItemTypeExtensionsTests.swift in Sources */,
-				C96BE5811C66413E005EABC7 /* KeychainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C96BE5221C661147005EABC7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C96BE5141C661147005EABC7 /* Keychain */;
-			targetProxy = C96BE5211C661147005EABC7 /* PBXContainerItemProxy */;
-		};
-		C96BE5741C66410F005EABC7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C96BE5671C66410E005EABC7 /* Keychain OSX */;
-			targetProxy = C96BE5731C66410F005EABC7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C96BE5271C661147005EABC7 /* Debug */ = {
@@ -635,190 +283,6 @@
 			};
 			name = Release;
 		};
-		C96BE52D1C661147005EABC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = E6DZ2MSZ48;
-				INFOPLIST_FILE = KeychainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yankodimitrov.KeychainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		C96BE52E1C661147005EABC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = E6DZ2MSZ48;
-				INFOPLIST_FILE = KeychainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yankodimitrov.KeychainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		C96BE5501C664026005EABC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Keychain/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-watchOS";
-				PRODUCT_NAME = Keychain;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		C96BE5511C664026005EABC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Keychain/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-watchOS";
-				PRODUCT_NAME = Keychain;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		C96BE55E1C66409D005EABC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Keychain/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-tvOS";
-				PRODUCT_NAME = Keychain;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		C96BE55F1C66409D005EABC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Keychain/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-tvOS";
-				PRODUCT_NAME = Keychain;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		C96BE57A1C66410F005EABC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Keychain/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-OSX";
-				PRODUCT_NAME = Keychain;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		C96BE57B1C66410F005EABC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Keychain/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-OSX";
-				PRODUCT_NAME = Keychain;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		C96BE57D1C66410F005EABC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Keychain/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-OSXTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		C96BE57E1C66410F005EABC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Keychain/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yankodimitrov.Keychain-OSXTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -836,51 +300,6 @@
 			buildConfigurations = (
 				C96BE52A1C661147005EABC7 /* Debug */,
 				C96BE52B1C661147005EABC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C96BE52C1C661147005EABC7 /* Build configuration list for PBXNativeTarget "KeychainTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C96BE52D1C661147005EABC7 /* Debug */,
-				C96BE52E1C661147005EABC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C96BE54F1C664026005EABC7 /* Build configuration list for PBXNativeTarget "Keychain watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C96BE5501C664026005EABC7 /* Debug */,
-				C96BE5511C664026005EABC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C96BE55D1C66409D005EABC7 /* Build configuration list for PBXNativeTarget "Keychain tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C96BE55E1C66409D005EABC7 /* Debug */,
-				C96BE55F1C66409D005EABC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C96BE5791C66410F005EABC7 /* Build configuration list for PBXNativeTarget "Keychain OSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C96BE57A1C66410F005EABC7 /* Debug */,
-				C96BE57B1C66410F005EABC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C96BE57C1C66410F005EABC7 /* Build configuration list for PBXNativeTarget "Keychain OSXTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C96BE57D1C66410F005EABC7 /* Debug */,
-				C96BE57E1C66410F005EABC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
